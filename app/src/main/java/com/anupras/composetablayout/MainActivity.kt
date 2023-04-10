@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.anupras.composetablayout.ui.theme.ComposeSimpleTabLayoutTheme
+import com.example.myapplication.ui.screens.TabLayout
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+                    MainScreen()
                 }
             }
         }
@@ -30,14 +31,14 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
+fun MainScreen() {
+    TabLayout()
 }
 
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
     ComposeSimpleTabLayoutTheme {
-        Greeting("Android")
+        MainScreen()
     }
 }
