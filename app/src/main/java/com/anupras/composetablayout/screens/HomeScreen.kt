@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.screens
+package com.anupras.composetablayout.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn

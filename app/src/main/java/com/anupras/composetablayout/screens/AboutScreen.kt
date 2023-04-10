@@ -1,4 +1,4 @@
-package com.example.composesimpletablayout.ui.screens
+package com.anupras.composetablayout.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

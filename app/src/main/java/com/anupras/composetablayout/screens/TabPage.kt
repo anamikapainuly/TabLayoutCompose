@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.screens
+package com.anupras.composetablayout.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -10,7 +10,6 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.composesimpletablayout.ui.screens.AboutScreen
 
 /**
  * Created by Anamika Painuly on 04/04/23.
